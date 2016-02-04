@@ -22,7 +22,7 @@ image:
 		 <div class="container" style="margin-top:10px;">
 	 		<input type="hidden" name="_next" value="//moquapps.github.io/thanku.html" />
 		 </div>		
-		 <input type="text" name="_gotcha" style="display:none" />
+		  
 		 <div class="container" style="margin-top:10px;">
 	     	<input type="submit" value="Send" class="btn btn-info">
 		 </div>	
