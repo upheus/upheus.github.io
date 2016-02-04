@@ -10,10 +10,22 @@ image:
   creditlink: http://wegraphics.net/downloads/free-ultimate-blurred-background-pack/
 ---
 
-
+<div class="container">
  
- <form action="//formspree.io/cmoviemaker@gmail.com" method="POST">
-     <input type="text" name="name" placeholer="Name">
-     <input type="email" name="_replyto" placeholer="Email">
-     <input type="submit" value="Send">
- </form>
+	 <form action="//formspree.io/cmoviemaker@gmail.com" method="POST">
+		 <div class="container" style="margin-top:10px;">
+	     	<input type="text" name="name" placeholder="Your Message">
+		 </div>		
+		 <div class="container" style="margin-top:10px;">	
+	     	<input type="email" name="_replyto" placeholder="Email">
+		 </div>		
+		 <div class="container" style="margin-top:10px;">
+	 		<input type="hidden" name="_next" value="//moquapps.github.io/thanku.html" />
+		 </div>		
+		 <input type="text" name="_gotcha" style="display:none" />
+		 <div class="container" style="margin-top:10px;">
+	     	<input type="submit" value="Send" class="btn btn-info">
+		 </div>	
+	 </form>
+	 
+</div>
