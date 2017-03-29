@@ -1,22 +1,38 @@
-# Site settings
-title: My Little Website
-tagline: "Changing the world, one uninspired quote at a time"
-url: "http://yourwebsite.com" # The base hostname & protocol for your site. Use it if you need absolute URL's
+---
 
-# Social
-socialimg: /img/social.jpg # be sure to change this image
-facebook: fbusername
-twitter: twusername
-github: ghusername
-googleplus: gusername
-instagram: igusername
+port: 4000
+host: 0.0.0.0
+safe: false
 
-# Contact
-phone: "916-276-1044" # This is my real number. You should text me.
-email: "hello@garrettboatman.com" # This is my real email address. Please don't email me.
 
-# Use this for production
-#sass:
-#    style: :compressed
+### site serving configuration ###
+exclude: [CNAME, README.md, .gitignore]
+permalink: /:title ## disables post output
+timezone: null
+lsi: false
+markdown: kramdown
 
-exclude: [.scss, README.md, node_modules, gruntfile.js, package.json]
+
+### content configuration ###
+title:       "Upheus. Great software."
+keywords:    "Web Applications, Developers, Mobile Apps, Analytics, Platforms, Software firm"
+description: "A group of dedicated software professionals."
+source_link: "https://github.com/upheus.github.io"
+favicon:     "img/bitscademy_favicon.ico"
+touch_icon:  "img/apple-touch-icon.png"
+google_analytics_key: UA-49607422-1 ## put YOUR key here to enable tracking! (blank to disable)
+
+
+### template colors, used site-wide via css ###
+colors:
+  black:     '#111111'
+  white:     '#f8f8f8'
+  blue:      '#49a7e9'
+  green:     '#9bcf2f'
+  purple:    '#c869bf'
+  orange:    '#fab125'
+  turquoise: '#0fbfcf'
+
+kramdown:
+  auto_ids:  false
+
